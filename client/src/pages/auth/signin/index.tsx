@@ -60,7 +60,7 @@ const SignIn = () => {
   return (
     <div className="px-4 w-full flex flex-col gap-6 sm:gap-10 justify-start items-center sm:px-[15%] mb-12">
       <Title>Expectask - Sign In</Title>
-      <header className="flex flex-col gap-1 w-full">
+      <header className="mt-12 lg:mt-0 flex flex-col gap-1 w-full">
         <Typography
           as="h2"
           className="text-[#435156] text-[28px] leading-[140%] font-medium sm:leading-[130%] sm:text-[38px] whitespace-nowrap"

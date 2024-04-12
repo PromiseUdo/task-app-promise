@@ -77,7 +77,7 @@ const SignUp = () => {
   return (
     <div className="w-full px-4 sm:px-[19%] lg:px-[10%]  h-full flex flex-col gap-4">
       <Title>Expectask - Create Account</Title>
-      <div className="flex flex-col gap-1 ">
+      <div className=" flex flex-col gap-1 ">
         <Typography
           as="h2"
           className="text-[#435156] text-[28px] leading-[140%] font-medium sm:leading-[130%] sm:text-[38px] whitespace-nowrap"
