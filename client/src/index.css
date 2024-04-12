@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+button:focus,
+select:focus,
+.uneditable-input:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: 0 none !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f1f3f4 inset !important;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #f1f3f4 inset !important;
+}
+
+button {
+  font-size: 12px;
+  line-height: 180%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+:root {
+  --overlay-bg: #00292dbf;
+  --gray-50: #f1f3f4;
+  --gray-100: #e2e7e9;
+  --gray-200: #c6cfd2;
+  --gray-300: #b0bdc1;
+  --gray-400: #a9b7bc;
+  --gray-500: #8da0a5;
+  --gray-600: #5a6d72;
+  --gray-700: #344054;
+  --gray-800: #2d3639;
+  --gray-900: #161b1d;
+  --teal-20: #ccecef;
+  --teal-40: #99d9df;
+  --teal-60: #66c6ce;
+  --teal-80: #33b3be;
+  --teal-100: #00a0ae;
+  --dark-teal-20: #d4dfe3;
+  --dark-teal-40: #a9bfc7;
+  --dark-teal-60: #7e9fac;
+  --dark-teal-80: #537f90;
+  --dark-teal-100: #285f74;
+  --yellow-20: #fcfad5;
+  --yellow-40: #f8f6ab;
+  --yellow-60: #f5f180;
+  --yellow-80: #f1ed56;
+  --yellow-100: #eee82c;
+  --red-50: #fcebe9;
+  --red-100: #f9d7d2;
+  --red-200: #f2afa6;
+  --red-300: #ec8679;
+  --red-400: #e65e4c;
+  --red-500: #e55846;
+  --red-600: #b32b19;
+  --red-700: #862013;
+  --red-800: #59160d;
+  --red-900: #2d0b06;
+  --green-50: #97daba;
+  --green-100: #2fb574;
+  --orange-50: #efceaf;
+  --orange-100: #de9d60;
+  --blue-50: #accae9;
+  --blue-100: #5995d2;
+  --purple-50: #bfb9e8;
+  --purple-100: #8073d1;
+  --shades-black: #181818;
+  --shades-gray-4: #2c3335;
+  --shades-gray-3: #535c5f;
+  --shades-gray-25: #979797;
+  --shades-gray-2: #b0bdc1;
+  --shades-gray-1: #e5f0f3;
+  --shades-white: #fff;
+  --shades-bg: #edf5f5;
+  --shades-gray-5: #d9d9d9;
+  --shades-gray-6: #f7f7f7;
+  --border: #d9d9d980;
+  --shadow: 0 4px 24px #0404040d;
+  --overlay: blur(8px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
