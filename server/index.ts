@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 
 import userRoutes from "./routes/userRoutes";
 import taskRoutes from "./routes/taskRoutes";
+import path from "path";
 
 connectDB();
 const app = express();
