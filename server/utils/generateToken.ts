@@ -1,7 +1,7 @@
 import jwt, { Secret } from "jsonwebtoken";
 
 const generateToken = (res: any, userId: any) => {
-  const jwtSecret = process.env.JWT_SECRET;
+  const jwtSecret = "expectasktiwpore23";
   if (!jwtSecret) {
     throw new Error("JWT secret is not defined");
   }

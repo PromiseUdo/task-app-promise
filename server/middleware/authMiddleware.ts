@@ -16,7 +16,7 @@ const protect = expressAsyncHandler(
       try {
         const decoded = jwt.verify(
           token,
-          process.env.JWT_SECRET as Secret
+          "expectasktiwpore23" as Secret
         ) as MyJwtPayload;
         req.user = await User.findById(decoded.userId).select("-password");
         next();
