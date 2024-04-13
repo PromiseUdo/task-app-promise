@@ -25,3 +25,4 @@ app.get("/", (req, res) => res.send("Server has started"));
 app.use(errorMiddleware_1.notFound);
 app.use(errorMiddleware_1.errorHandler);
 app.listen(port, () => console.log(`Server started on port ${port}`));
+exports.default = app;
