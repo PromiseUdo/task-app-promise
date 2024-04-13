@@ -21,7 +21,7 @@ git clone https://github.com/PromiseUdo/task-app-promise.git
 cd client
 ```
 
-Once changed run the command
+Once changed run the command below to install client dependencies
 
 ```
 npm install
@@ -41,7 +41,7 @@ This last command will run the client server. On the second opened terminal, cha
 npm server
 ```
 
-Once changed run the command
+Once changed run the command below to install server dependencies
 
 ```
 npm install
