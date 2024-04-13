@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 const connectDB = async () => {
   try {
-    const mongoURI = process.env.MONGO_URI;
+    const mongoURI =
+      "mongodb+srv://saas-user:Asaas_user123@cluster0.lksjill.mongodb.net/expectask";
     if (!mongoURI) {
       throw new Error("MongoDB URI is not defined.");
     }
