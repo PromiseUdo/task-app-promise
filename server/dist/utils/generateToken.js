@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const generateToken = (res, userId) => {
-    const jwtSecret = process.env.JWT_SECRET;
+    const jwtSecret = "expectasktiwpore23";
     if (!jwtSecret) {
         throw new Error("JWT secret is not defined");
     }

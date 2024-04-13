@@ -21,7 +21,7 @@ const protect = (0, express_async_handler_1.default)((req, res, next) => __await
     if (req.cookies.jwt) {
         token = req.cookies.jwt;
         try {
-            const decoded = jsonwebtoken_1.default.verify(token, process.env.JWT_SECRET);
+            const decoded = jsonwebtoken_1.default.verify(token, "expectasktiwpore23");
             req.user = yield userModel_1.default.findById(decoded.userId).select("-password");
             next();
         }
