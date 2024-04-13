@@ -28,13 +28,14 @@ npm install
 ```
 
 This will enable the client server install all dependencies on the package.json file.
+
 Once this is complete, run the command
 
 ```
 npm run start
 ```
 
-This last command will run the client server 6. On the second opened terminal, change directory to the server by typing the command
+This last command will run the client server. On the second opened terminal, change directory to the server by typing the command
 
 ```
 npm server
@@ -47,6 +48,14 @@ npm install
 ```
 
 This will enable the backend server install all dependencies on the package.json file.
+It is also recommended to install nodemon as a global dependecy.
+
+To do this run the command
+
+```
+npm i -g nodemon
+```
+
 Once this is complete, run the command
 
 ```
